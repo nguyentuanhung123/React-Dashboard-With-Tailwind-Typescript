@@ -2,7 +2,7 @@ import { ChatboxEllipses, Notifications, Person, SearchOutline } from 'react-ion
 
 const Navbar = () => {
     return (
-        <div className="fixed left-0 top-0 w-full h-[70p] bg-white py-5 pl-20 pr-5 flex items-center justify-between z-[100]">
+        <div className="fixed left-0 top-0 w-full h-[70px] bg-white py-5 pl-20 pr-5 flex items-center justify-between z-[100]">
             <span className="font-black text-[28px] absolute left-[26px] text-[#4379EE]">D.</span>
             <div className="flex md:w-[450px] w-[200px] items-center px-4">
                 <SearchOutline color={"#454545"} />

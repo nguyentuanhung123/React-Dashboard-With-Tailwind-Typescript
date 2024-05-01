@@ -11,3 +11,40 @@ body {
   min-width: 100vw;
   overflow-x: hidden;
 }
+
+.rdt_TableHeadRow {
+  background-color: #f1f4f9 !important;
+  border-radius: 10px !important;
+  border: 0 !important;
+  color: #242424;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.rdt_TableRow {
+  margin: 5px 0px;
+}
+
+.rdt_TableCell {
+  color: #202224;
+  font-weight: 600;
+  font-size: 13.5px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar * {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4379ee;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3867cc;
+}

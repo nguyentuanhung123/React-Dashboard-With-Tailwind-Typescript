@@ -18,7 +18,7 @@ const Sidebar = () => {
         {title: "calendar", icon: Calendar}
     ]
 
-    const handleItemClick = (item: any, e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    const handleItemClick = (item: any, e: MouseEvent<HTMLDivElement, globalThis.MouseEvent>) => {
         setActivePage(item.title)
 
         const offsetTop = e.currentTarget.offsetTop;
